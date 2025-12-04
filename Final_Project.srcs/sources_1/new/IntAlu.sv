@@ -1,3 +1,14 @@
+// -----------------------------------------------------------------------------
+// File        : IntAlu.sv
+// Author      : Mark W. Welker (course template) / Maintainer: Shreejal Bhattarai
+// Project     : Final Project
+// Description : Integer ALU companion block that receives packed operands from
+//               the execution engine, performs scalar arithmetic, and drives
+//               its result back onto the shared 256-bit bus when addressed.
+// Date        : 2025-12-03
+// Notes       : AI Assistance - Cursor AI was used for debugging support.
+// -----------------------------------------------------------------------------
+
 module IntegerAlu (
     input  logic         Clk,
     inout  logic [255:0] DataBus,
@@ -14,7 +25,7 @@ module IntegerAlu (
     wire drive_bus = (address[15:12] == IntAlu) && (!nRead);
 
     // When driving, present ALU_Result register on the shared bus
-    assign DataBus = drive_bus ? int_registers[ALU_Result] : 'hz;
+    assign DataBus = drive_bus ? int_registers[ALU_Result] : 256'bz;
 
     always_ff @(negedge Clk or negedge nReset) begin
         if (!nReset) begin
