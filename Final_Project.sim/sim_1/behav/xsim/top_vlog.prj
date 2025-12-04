@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  --include "../../../../../Projects/Final_Project" \
+"../../../../../Projects/Final_Project/Instruct.sv" \
+"../../../../Final_Project.srcs/sources_1/new/IntAlu.sv" \
+"../../../../../Projects/Final_Project/MainMem.sv" \
+"../../../../Final_Project.srcs/sources_1/new/MatrixALU.sv" \
+"../../../../Final_Project.srcs/sources_1/new/execution_state_machine.sv" \
+"../../../../../Projects/Final_Project/testBench.sv" \
+"../../../../../Projects/Final_Project/Top.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

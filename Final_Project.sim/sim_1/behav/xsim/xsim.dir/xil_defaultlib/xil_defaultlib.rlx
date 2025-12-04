@@ -1,0 +1,13 @@
+0.7
+2020.2
+Dec 15 2024
+09:04:49
+/home/shreejal/Documents/Final_Project/Final_Project.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,uvm,,,,,,
+/home/shreejal/Documents/Final_Project/Final_Project.srcs/sources_1/new/IntAlu.sv,1764529006,systemVerilog,,/home/shreejal/Documents/Projects/Final_Project/MainMem.sv,/home/shreejal/Documents/Projects/Final_Project/params.vh,IntegerAlu,,uvm,../../../../../Projects/Final_Project,,,,,
+/home/shreejal/Documents/Final_Project/Final_Project.srcs/sources_1/new/MatrixALU.sv,1764530822,systemVerilog,,/home/shreejal/Documents/Final_Project/Final_Project.srcs/sources_1/new/execution_state_machine.sv,/home/shreejal/Documents/Projects/Final_Project/params.vh,MatrixAlu,,uvm,../../../../../Projects/Final_Project,,,,,
+/home/shreejal/Documents/Final_Project/Final_Project.srcs/sources_1/new/execution_state_machine.sv,1764560662,systemVerilog,,/home/shreejal/Documents/Projects/Final_Project/testBench.sv,/home/shreejal/Documents/Projects/Final_Project/params.vh,Execution,,uvm,../../../../../Projects/Final_Project,,,,,
+/home/shreejal/Documents/Projects/Final_Project/Instruct.sv,1764540434,systemVerilog,/home/shreejal/Documents/Final_Project/Final_Project.srcs/sources_1/new/IntAlu.sv;/home/shreejal/Documents/Final_Project/Final_Project.srcs/sources_1/new/MatrixALU.sv;/home/shreejal/Documents/Final_Project/Final_Project.srcs/sources_1/new/execution_state_machine.sv;/home/shreejal/Documents/Projects/Final_Project/MainMem.sv;/home/shreejal/Documents/Projects/Final_Project/Top.sv;/home/shreejal/Documents/Projects/Final_Project/testBench.sv,/home/shreejal/Documents/Final_Project/Final_Project.srcs/sources_1/new/IntAlu.sv,/home/shreejal/Documents/Projects/Final_Project/params.vh,InstructionMemory,,uvm,../../../../../Projects/Final_Project,,,,,
+/home/shreejal/Documents/Projects/Final_Project/MainMem.sv,1764275342,systemVerilog,,/home/shreejal/Documents/Final_Project/Final_Project.srcs/sources_1/new/MatrixALU.sv,/home/shreejal/Documents/Projects/Final_Project/params.vh,MainMemory,,uvm,../../../../../Projects/Final_Project,,,,,
+/home/shreejal/Documents/Projects/Final_Project/Top.sv,1764543659,systemVerilog,,,,top,,uvm,../../../../../Projects/Final_Project,,,,,
+/home/shreejal/Documents/Projects/Final_Project/params.vh,1764275342,verilog,,,,,,,,,,,,
+/home/shreejal/Documents/Projects/Final_Project/testBench.sv,1764275342,systemVerilog,,/home/shreejal/Documents/Projects/Final_Project/Top.sv,,TestMatrix,,uvm,../../../../../Projects/Final_Project,,,,,
